@@ -1,5 +1,5 @@
 s = "hello"
-puts s.upcase
+puts s.upcase # HELLO
 
 class String
   def upcase
@@ -8,4 +8,4 @@ class String
   end
 end
 
-puts s.upcase
+puts s.upcase # hello, thanks to monkey patch
